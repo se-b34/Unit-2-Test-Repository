@@ -35,7 +35,7 @@ h2 {
     to {color: skyblue;}
 }
 
-header {
+.page-title-header {
     color: red;
     font-size: 40px;
     font-family: fantasy;
