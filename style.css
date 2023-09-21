@@ -35,8 +35,13 @@ h2 {
     to {color: skyblue;}
 }
 
-.page-title-header {
+header {
     color: red;
     font-size: 40px;
     font-family: fantasy;
+    text-align: center;
+}
+
+.page-title {
+    
 }
