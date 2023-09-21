@@ -6,6 +6,10 @@ h2 {
     font-family: monospace;
 }
 
+p {
+    font-family: monospace;
+}
+
 .Mac-1 {
     font-family: monospace; color: rgb(114, 74, 157); background-color: grey;
 }
@@ -28,20 +32,27 @@ h2 {
 
 #table {
     border-style: double; border-width: medium;
+    font-family: monospace;
 }
 
-@keyframes animation-1 {
-    from {color: red;}
-    to {color: skyblue;}
+a {
+    font-family: monospace;
 }
+
 
 header {
     color: red;
     font-size: 40px;
     font-family: fantasy;
     text-align: center;
+    transition: color 1ms;
 }
 
-.page-title {
-    
+header:hover{
+    color: skyblue;
+}
+
+main {
+    text-align: center;
+    font-family: monospace;
 }
