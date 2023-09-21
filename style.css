@@ -1,24 +1,42 @@
 h1 {
     color: red; font-family: monospace;
 }
+
 h2 {
     font-family: monospace;
 }
+
 .Mac-1 {
     font-family: monospace; color: rgb(114, 74, 157); background-color: grey;
 }
+
 .Mac-2 {
     font-family: monospace; color: darkred; background-color: burlywood;
 }
+
 .Mac-3 {
     font-family: monospace; color: lightcoral; background-color: lightskyblue;
 }
+
 .Mac-4 {
     font-family: monospace; color: darkmagenta; background-color: lightcoral;
 }
+
 .New-Mac {
     font-family: monospace; color: darkgoldenrod; background-color: silver;
 }
+
 #table {
     border-style: double; border-width: medium;
+}
+
+@keyframes animation-1 {
+    from {color: red;}
+    to {color: skyblue;}
+}
+
+header {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
 }
