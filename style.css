@@ -56,3 +56,9 @@ main {
     text-align: center;
     font-family: monospace;
 }
+
+footer {
+    text-align: center;
+    font-family: monospace;
+    font-size: x-small;
+}
